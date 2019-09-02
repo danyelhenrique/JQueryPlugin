@@ -8,15 +8,15 @@
   </head>
 
   <body>
-    <h1>Plugin #02 - Temporizador</h1>
+    <h1>Plugin - timer</h1>
     <div></div>
     <script src="js/temporizador.js"></script>
     <script>
       $("div")
         .temporizador({
-          mensagem: "Em breve um novo site pra você!",
+          message: "Soon a new site for you!",
           // horario: time to fadeIn on 24 hours
-          horario: "23:17:59"
+          schedule: "23:17:59"
         })
         .hide()
         .fadeIn(3000);
